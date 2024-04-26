@@ -6,17 +6,24 @@ The script reads resolution_level = 0 (full resolution) from the ims file and tr
 The new array is saved useing tifffile.imwrite()
 In the current version, only the XY pixel size is stored in the tiff metadata.
 
-# USAGE Executable
+# Building and using an executable
 For batch processing
-- Download the Imaris_to_tiff folder
-- Run the Python executable (dist\IMS_to_TIFF_16bit\IMS_to_TIFF_16bit.exe)
-- Load several IMS files
-- Define the output folder
-- Click Run
-- Make sure the image conversion has worked correctly
+## Build
+```
+pip install pyinstaller
+cd path\to\the\script_IMS_to_TIFF_16bit.py
+pyinstaller --onefile IMS_to_TIFF_16bit.py
+```
 
+## Usage
+- Execute the Python executable (dist\IMS_to_TIFF_16bit.exe)
+- Load image -> multiple IMS files can be loaded
+- Select output folder
+- Click Ru
+
+!Make sure the image conversion has worked correctly.
 !Large files may not work depending on available RAM.
 
 # Code
-For documentation purposes I added the Python file and a Jupyter notebook.
+For documentation purposes I have added the Python file and a Jupyter notebook.
 
