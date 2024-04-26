@@ -31,3 +31,5 @@ Large files may not work depending on available RAM.
 # Code
 For documentation purposes I have added the Python file and a Jupyter notebook.
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
