@@ -7,7 +7,9 @@ The new array is saved useing tifffile.imwrite()
 In the current version, only the XY pixel size is stored in the tiff metadata.
 
 # Building and using an executable
-For batch processing
+To convert multiple images without Python experience, you can create a small executable. 
+This allows batch conversion of multiple ims files.
+
 ## Build
 ```
 pip install pyinstaller
