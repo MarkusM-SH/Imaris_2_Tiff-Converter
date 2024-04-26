@@ -16,11 +16,12 @@ pyinstaller --onefile IMS_to_TIFF_16bit.py
 ```
 
 ## Usage
-- Execute the Python executable (dist\IMS_to_TIFF_16bit.exe)
-- Load image -> multiple IMS files can be loaded
-- Select output folder
-- Click Ru
+- Run the Python executable from the dist folder (dist/IMS_to_TIFF_16bit.exe)
+- **Load Image** -> Multiple IMS files can be loaded simultaneously
+- **Select output folder**
+- Click **Run**
 
+## Important
 !Make sure the image conversion has worked correctly.
 !Large files may not work depending on available RAM.
 
