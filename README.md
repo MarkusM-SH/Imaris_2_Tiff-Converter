@@ -23,9 +23,10 @@ pyinstaller --onefile IMS_to_TIFF_16bit.py
 - **Select output folder**
 - Click **Run**
 
-## Important
-!Make sure the image conversion has worked correctly.
-!Large files may not work depending on available RAM.
+[!CAUTION]
+Make sure the image conversion has worked correctly.
+[!NOTE]
+Large files may not work depending on available RAM.
 
 # Code
 For documentation purposes I have added the Python file and a Jupyter notebook.
