@@ -1,5 +1,6 @@
 # Imaris_2_Tiff-Converter
 A small Python script and executable that takes an ims file and converts it to an tiff file.
+The images can be saved as 16bit tiffs or as 8-bit images either scaled or unscaled.
 
 ## NOTE
 The script reads resolution_level = 0 (full resolution) from the ims file and transposes the 5D array from TCZYX to TZCYX.
@@ -13,8 +14,8 @@ This allows batch conversion of multiple ims files.
 ## Build
 ```
 pip install pyinstaller
-cd path\to\the\script_IMS_to_TIFF_16bit.py
-pyinstaller --onefile IMS_to_TIFF_16bit.py
+cd path\to\the\Ims2tiff_converter and scaler.py
+pyinstaller --onefile Ims2tiff_converter and scaler.py
 ```
 
 ## Usage
