@@ -20,6 +20,10 @@ pyinstaller --onefile IMS_to_TIFF_16bit.py
 ## Usage
 - Run the Python executable from the dist folder (dist/IMS_to_TIFF_16bit.exe)
 - **Load Image** -> Multiple IMS files can be loaded simultaneously
+- **Select Scaling mode**
+    - **16-bit:** Saves images in raw intensity format
+    - **8-bit:** Converts images and stacks to 8-bits without scaling
+    - **8-bit Scaled:** Converts images and stacks to 8-bits by linearly scaling from min-max to 0-255
 - **Select output folder**
 - Click **Run**
 
