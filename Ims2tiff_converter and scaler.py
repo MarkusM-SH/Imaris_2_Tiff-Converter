@@ -54,7 +54,9 @@ class ImageProcessorUI:
     def run_code(self):
         if hasattr(self, 'img_list') and hasattr(self, 'output_folder'):
             mode = self.save_mode_var.get()
-            messagebox.showinfo("Save Mode Selected", f"Here is the text for {mode}")
+            if mode == "8-bit Scaled":                
+                messagebox.showinfo("Save Mode Selected {mode}", f"Warning: Scaling is applied independently to each channel and image, altering intensity values. \nAs a result, quantitative intensity measurements are no longer valid.")             
+        
             
             for img in self.img_list:
                 def get_axis_labels(shape):
