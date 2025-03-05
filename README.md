@@ -15,7 +15,7 @@ This allows batch conversion of multiple ims files.
 ```
 pip install pyinstaller
 cd path\to\the\Ims2tiff_converter and scaler.py
-pyinstaller --onefile Ims2tiff_converter and scaler.py
+pyinstaller --onefile 'Ims2tiff_converter and scaler.py'
 ```
 
 ## Usage
