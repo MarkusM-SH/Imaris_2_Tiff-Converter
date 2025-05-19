@@ -5,7 +5,9 @@ The images can be saved as 16bit tiffs or as 8-bit images either scaled or unsca
 ## NOTE
 The script reads resolution_level = 0 (full resolution) from the ims file and transposes the 5D array from TCZYX to TZCYX.
 The new array is saved useing tifffile.imwrite()
-In the current version, only the XY pixel size is stored in the tiff metadata.
+
+> [!CAUTION]
+> In the current version, only the XY pixel size is stored in the tiff metadata.
 
 # Building and using an executable
 To convert multiple images without Python experience, you can create a small executable. 
