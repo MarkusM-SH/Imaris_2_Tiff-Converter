@@ -16,7 +16,7 @@ This allows batch conversion of multiple ims files.
 ## Build
 **Download the Python script**
 ```
-git clone https://github.com/MarkusM-SH/Imaris_2_Tiff-Converter.git
+git clone https://github.com/MarkusM-SH/Ims2tiff_converter and scaler.py
 ```
 **Create an executable:**
 ```
@@ -26,7 +26,7 @@ pyinstaller --onefile 'Ims2tiff_converter and scaler.py'
 ```
 
 ## Usage
-- Run the Python executable from the dist folder (dist/IMS_to_TIFF_16bit.exe)
+- Run the Python executable from the dist folder (dist/Ims2tiff_converter and scaler.exe)
 - **Load Image** -> Multiple IMS files can be loaded simultaneously
 - **Select Scaling mode**
     - **16-bit:** Saves images in raw intensity format
