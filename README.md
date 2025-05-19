@@ -14,6 +14,11 @@ To convert multiple images without Python experience, you can create a small exe
 This allows batch conversion of multiple ims files.
 
 ## Build
+**Download the Python script**
+```
+git clone https://github.com/MarkusM-SH/Imaris_2_Tiff-Converter.git
+```
+**Create an executable:**
 ```
 pip install pyinstaller
 cd path\to\the\Ims2tiff_converter and scaler.py
